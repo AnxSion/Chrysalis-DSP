@@ -2,16 +2,49 @@
 	"Amplifiers":[
 		{
 			"Name": "Amp1",
+			"Description": "A strong amp with an extreme dynamic potential",
 			"Parameters":[
 				{
-				"Low Boost Switch": "Increases the low end signal",
-				"Bright Boost Switch": "Increases the high end signal",
-				"Gain": "Controls the preamp gain",
-				"3 Band EQ": "Controls the BMT Tonestack",
-				"Blend": "Mixes the processed and the unprocessed signal",
-				"Master": "Controls the Poweramp",
-				"Level Knob": "Controls the overall level knob",
-				"Power": "Controls the bypass"
+				"Low Boost Switch": [
+					"description": "increases the low end signal",
+					"type": "Switch",
+					"Technical": "+6dB @ 250Hz"
+				],
+				"Bright Boost Switch": [
+					"description": "Increases the high end signal",
+					"type": "Switch",
+					"Technical": "+6dB @ 8kHz"
+				],
+				"Gain": [
+					"description": "Controls Preamp gain",
+					"type": "Knob"
+					"Technical": "+1 to +10"
+				],
+				"3 Band EQ":[
+					"description": "Controls the BMT Tonestack",
+					"type": "Knob",
+					"Technical": "+-12dB @ 100Hz, 1KHz and 6kHz"
+				],
+				"Blend": [
+					"description": "Mixes the processed and the unprocessed signal",
+					"type": "Knob"
+					"Technical": "0% to 100%"
+				],
+				"Master": [
+					"description": "Controls the Poweramp",
+					"type": "Knob"
+					"Technical": "+1 to +10"
+				],
+				"Level Knob": [
+					"description": "Controls the overall volume",
+					"type": "Knob"
+					"Technical": "+1 to +10"
+				],
+				"Power": [
+					"description": "Controls the bypass",
+					"type": "Switch"
+					"Technical": "on or off"
+				],
 				}
 			]
 		}
