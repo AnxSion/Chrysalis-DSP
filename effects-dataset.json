@@ -2,7 +2,18 @@
 	"Amplifiers":[
 		{
 			"Name": "Amp1",
-			"Parameters":[]
+			"Parameters":[
+				{
+				"Low Boost Switch": "Increases the low end signal",
+				"Bright Boost Switch": "Increases the high end signal",
+				"Gain": "Controls the preamp gain",
+				"3 Band EQ": "Controls the BMT Tonestack",
+				"Blend": "Mixes the processed and the unprocessed signal",
+				"Master": "Controls the Poweramp",
+				"Level Knob": "Controls the overall level knob",
+				"Power": "Controls the bypass
+				}
+			]
 		}
 	]
 }
