@@ -7,7 +7,7 @@
 				{
 				"Low Boost Switch": [
 					{
-						"description": "increases the low end signal",
+						"description": "Increases the low end signal",
 						"type": "Switch",
 						"Technical": "+6dB @ 250Hz"
 					}
